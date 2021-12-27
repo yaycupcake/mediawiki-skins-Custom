@@ -1,14 +1,13 @@
 Custom skin
 
-This is an custom skin showcasing the best practices, a companion to the
+This is *fork* of the example skin showcasing the best practices, a companion to the
 MediaWiki skinning guide available at
 <https://www.mediawiki.org/wiki/Manual:Skinning>.
 
-The code is released into public domain, which means you can freely copy it,
-modify and release as your own skin without providing attribution and with
-absolutely no restrictions. Remember to change the license information if you
-do not intend to provide your changes on the same terms.
+This fork is a personal project/challenge to see what I can do with a custom MediaWiki skin. I have ideas, some of them might work, some of them might not. It's not really meant to be something used by the masses, but if people want to use it, be my guest. Likely to be WIP for a long time. Also, please excuse the lack of a better name. I'm a coder, not an English major.
 
-See <http://creativecommons.org/publicdomain/zero/1.0/> for full licensing
+Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+
+See <https://creativecommons.org/licenses/by-nc-sa/4.0/> for full licensing
 details.
 
