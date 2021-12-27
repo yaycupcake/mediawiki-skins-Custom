@@ -1,23 +1,23 @@
 {
-	"name": "Example",
+	"name": "Custom",
 	"version": "1.0",
 	"author": "...",
-	"url": "https://www.mediawiki.org/wiki/Skin:Example",
-	"descriptionmsg": "example-desc",
-	"namemsg": "skinname-example",
+	"url": "https://www.mediawiki.org/wiki/Skin:Custom",
+	"descriptionmsg": "custom-desc",
+	"namemsg": "skinname-custom",
 	"license-name": "CC0-1.0",
 	"type": "skin",
 	"requires": {
 		"MediaWiki": ">= 1.36.0"
 	},
 	"ValidSkinNames": {
-		"example": {
+		"custom": {
 			"class": "SkinMustache",
 			"args": [ {
-				"name": "example",
+				"name": "custom",
 				"responsive": true,
 				"styles": [
-					"skins.example"
+					"skins.custom"
 				],
 				"messages": [
 					"sitetitle",
@@ -26,18 +26,18 @@
 					"navigation-heading"
 				],
 				"scripts": [
-					"skins.example.js"
+					"skins.custom.js"
 				]
 			} ]
 		}
 	},
 	"MessagesDirs": {
-		"Example": [
+		"Custom": [
 			"i18n"
 		]
 	},
 	"ResourceModules": {
-		"skins.example": {
+		"skins.custom": {
 			"class": "ResourceLoaderSkinModule",
 			"features": {
 				"normalize": true,
@@ -63,7 +63,7 @@
 				}
 			}
 		},
-		"skins.example.js": {
+		"skins.custom.js": {
 			"scripts": [
 				"resources/main.js"
 			]
@@ -71,10 +71,10 @@
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
-		"remoteSkinPath": "Example"
+		"remoteSkinPath": "Custom"
 	},
 	"ResourceModuleSkinStyles": {
-		"example": {
+		"custom": {
 			"+ext.echo.styles.badge": "resources/extensions/echo.styles.badge.less"
 		}
 	},
